@@ -9,7 +9,7 @@ function arrayReplace(inputArray, elementToReplace, substitutionElem) {
             inputArray[index] = substitutionElem;
         }
     });
-    console.log(inputArray); 
+    console.log("Output:"+ inputArray); 
 }
 
 arrayReplace([1, 2, 1], 1, 3); 

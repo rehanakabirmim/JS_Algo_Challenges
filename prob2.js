@@ -9,7 +9,7 @@
 function sum(param1,param2){
     return param1 + param2;
 }
-console.log(sum(1,3))
+console.log('The sum of two numbers:'+ sum(1,3))
 
 function totalSum(...param1){
     let total = 0;
@@ -19,4 +19,4 @@ function totalSum(...param1){
     return total;
 
 }
-console.log(totalSum(1,3,4));
+console.log("The sum of all numbers:"+totalSum(1,3,4));
